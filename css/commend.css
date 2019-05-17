@@ -1,0 +1,78 @@
+.comment_box p {
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.mouse_l {
+    width: 19px;
+    height: 24px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-mouse_L.png") no-repeat;
+}
+
+.mouse_r {
+    width: 19px;
+    height: 24px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-mouse_R.png") no-repeat;
+}
+
+.mouse_lr {
+    width: 19px;
+    height: 24px;
+    background: url("../icon/key-mouse_LR.png") no-repeat;
+}
+
+.key_ctrl {
+    width: 47px;
+    height: 19px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-Ctrl.png") no-repeat;
+}
+
+.key_wasd {
+    width: 61px;
+    height: 37px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-WASD.png") no-repeat;
+}
+
+.comment_box p.key_w {
+    width: 20px;
+    height: 19px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-WASD.png") no-repeat;
+    -webkit-background-size: 300%;
+    background-size: 300%;
+    background-position: -20px 1px;
+}
+
+.comment_box p.key_a {
+    width: 20px;
+    height: 19px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-WASD.png") no-repeat;
+    -webkit-background-size: 300%;
+    background-size: 300%;
+    background-position: 0 -17px;
+}
+
+.comment_box p.key_s {
+    width: 20px;
+    height: 18px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-WASD.png") no-repeat;
+    -webkit-background-size: 300%;
+    background-size: 300%;
+    background-position: -20px -18px;
+}
+
+.comment_box p.key_d {
+    width: 20px;
+    height: 19px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-WASD.png") no-repeat;
+    -webkit-background-size: 300%;
+    background-size: 300%;
+    background-position: -40px -17px;
+}
+
+.key_space {
+    width: 47px;
+    height: 19px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-Space.png") no-repeat;
+}

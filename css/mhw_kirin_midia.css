@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media (max-width: 600px) {
+    #category li {
+        width: 24%;
+    }
+}
+
+@media (max-width: 420px) {
+    html {
+        font-size: 10px;
+    }
+
+    #category li {
+        width: 32%;
+    }
+}

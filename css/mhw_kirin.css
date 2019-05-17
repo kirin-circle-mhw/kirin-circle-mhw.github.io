@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+/* reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, input, select, textarea, button {
+    margin: 0;
+    padding: 0
+}
+
+fieldset, img {
+    border: 0 none
+}
+
+dl, ul, ol, menu, li {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none
+}
+
+input, select, textarea, button {
+    font-size: 100%;
+    vertical-align: middle
+}
+
+button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body {
+    -webkit-text-size-adjust: none
+}
+
+/* 뷰표트 변환시 폰트크기 자동확대 방지 */
+input[type='text'], input[type='password'], input[type='submit'], input[type='search'] {
+    -webkit-appearance: none;
+    border-radius: 0
+}
+
+input:checked[type='checkbox'] {
+    background-color: #666;
+    -webkit-appearance: checkbox
+}
+
+button, input[type='button'], input[type='submit'], input[type='reset'], input[type='file'] {
+    -webkit-appearance: button;
+    border-radius: 0
+}
+
+input[type='search']::-webkit-search-cancel-button {
+    -webkit-appearance: none
+}
+
+body {
+    background: #fff
+}
+
+body, th, td, input, select, textarea, button {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    color: #333
+}
+
+/* color값은 디자인가이드에 맞게사용 */
+a {
+    color: #333;
+    text-decoration: none
+}
+
+a:active, a:hover {
+    text-decoration: none
+}
+
+address, caption, cite, code, dfn, em, var {
+    font-style: normal;
+    font-weight: normal
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#category {
+    width: 90%;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+
+#category li {
+    float: left;
+    width: 19%;
+    min-width: 90px;
+    margin: 2px 0.5%;
+    padding: 3px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#category li:hover {
+    background: #666;
+    color: #ffffff;
+}
+
+#weapon {
+    margin-top: 30px;
+}
+
+section {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section > h2 {
+    border: 3px solid;
+    padding: 0.3rem;
+    font-size: 2rem;
+}
+
+section > h2 > b {
+    display: inline-block;
+    padding-left: 40px;
+    -webkit-background-size: auto 100%;
+}
+
+section > div {
+    margin-top: 30px;
+}
+
+section > div > h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+section > div > h3:before {
+    content: '- ';
+}
+
+.content_box {
+    width: 96%;
+    margin: 0 2%;
+}
+
+.weapon_info_block {
+    display: block;
+}
+
+.weapon_info {
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+
+.weapon_info > img {
+    float: left;
+    width: 30%;
+    min-width: 150px;
+    margin-right: 15px;
+}
+
+div.weapon_ex > ol > li{
+    list-style: decimal inside;
+    font-size: 1.5rem;
+}
+
+div.weapon_ex > ol > li > ul > li {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+div.weapon_ex > ol > li > ul > li:before {
+    content: '- ';
+}
+
+div.weapon_ex > ol > li > ul > li > ul > li {
+    font-size: 1.1rem;
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+
+div.weapon_ex > ol > li > ul > li > ul > li:before {
+    content: '•';
+}
+
+b.sub_comment {
+    display: block;
+    clear: both;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #666;
+    margin-left: 1.3rem;
+}
+b.sub_comment:before {
+    content: '*';
+    margin-right: 3px;
+}
+
+.sub_info {
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+
+.display_none {
+    display: none;
+}

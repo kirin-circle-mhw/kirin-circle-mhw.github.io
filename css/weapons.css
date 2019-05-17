@@ -1,0 +1,60 @@
+.weapon_icon {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.greatSword {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon01.png');
+}
+
+.longSword {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon02.png');
+}
+
+.swordShield {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon03.png');
+}
+
+.dualBlades {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon04.png');
+}
+
+.hammer {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon05.png');
+}
+
+.huntingHorn {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon06.png');
+}
+
+.lance {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon07.png');
+}
+
+.gunlance {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon08.png');
+}
+
+.switchAxe {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon09.png');
+}
+
+.chargeBlade {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon10.png');
+}
+
+.insectGlaive {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon11.png');
+}
+
+.lightBowgun {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon12.png');
+}
+
+.heavyBowgun {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon13.png');
+}
+
+.bow {
+    background-image: url('http://game.capcom.com/manual/MHW_PC/img/weapon/weapon14.png');
+}
