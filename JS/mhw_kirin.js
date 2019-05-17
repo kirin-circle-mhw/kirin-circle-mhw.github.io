@@ -7,5 +7,5 @@ $(document).ready(function () {
         $(targetId).show();
     })
 
-    $('#weapon section:eq(0)').show();
+    $('#weapon section#chargeBlade').show();
 })
