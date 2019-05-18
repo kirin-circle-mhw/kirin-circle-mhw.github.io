@@ -224,15 +224,18 @@ b.sub_comment {
 }
 
 p.li_tab {
+    display: inline-block;
     margin-left: 1.3rem;
 }
 
 p.li_tab2 {
+    display: inline-block;
     margin-left: 1.3rem;
 }
 
 p.li_tab2:before {
-    content: '- ';
+    content: '-';
+    margin-right: 1px;
 }
 
 b.sub_comment:before {
