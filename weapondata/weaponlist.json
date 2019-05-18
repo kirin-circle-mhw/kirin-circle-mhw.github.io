@@ -1,0 +1,60 @@
+{
+  "Category": [
+    {
+      "name" : "대검",
+      "name_en" : "greatSword"
+    },
+    {
+      "name" : "태도",
+      "name_en" : "longSword"
+    },
+    {
+      "name" : "한손검",
+      "name_en" : "swordShield"
+    },
+    {
+      "name" : "쌍검",
+      "name_en" : "dualBlades"
+    },
+    {
+      "name" : "해머",
+      "name_en" : "hammer"
+    },
+    {
+      "name" : "수렵피리",
+      "name_en" : "huntingHorn"
+    },
+    {
+      "name" : "랜드",
+      "name_en" : "lance"
+    },
+    {
+      "name" : "건랜스",
+      "name_en" : "gunLance"
+    },
+    {
+      "name" : "슬래시액스",
+      "name_en" : "switchAxe"
+    },
+    {
+      "name" : "차지액스",
+      "name_en" : "chargeBlade"
+    },
+    {
+      "name" : "조충곤",
+      "name_en" : "insectGlaive"
+    },
+    {
+      "name" : "라이트보우건",
+      "name_en" : "lightBowgun"
+    },
+    {
+      "name" : "헤비보우건",
+      "name_en" : "heavyBowgun"
+    },
+    {
+      "name" : "활",
+      "name_en" : "bow"
+    }
+  ]
+}

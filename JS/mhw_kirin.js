@@ -9,3 +9,11 @@ $(document).ready(function () {
 
     $('#weapon section#chargeBlade').show();
 })
+
+
+function getJsonFile(fileName) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", fileName, true);
+    console.log(rawFile.responseText);
+}
