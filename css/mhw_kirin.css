@@ -222,6 +222,19 @@ b.sub_comment {
     color: #666;
     margin-left: 1.3rem;
 }
+
+p.li_tab {
+    margin-left: 1.3rem;
+}
+
+p.li_tab2 {
+    margin-left: 1.3rem;
+}
+
+p.li_tab2:before {
+    content: '- ';
+}
+
 b.sub_comment:before {
     content: '*';
     margin-right: 3px;
