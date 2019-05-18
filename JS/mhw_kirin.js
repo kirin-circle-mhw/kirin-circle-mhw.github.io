@@ -1,7 +1,5 @@
-createCategory();
-
-$('#weapon section#chargeBlade').show();
-
+// createCategory();
+$(document).ready(function () {
 $('#category').on('click','li', function () {
     weapon = $(this).data('name')
     targetId = '#' + weapon;
@@ -10,3 +8,6 @@ $('#category').on('click','li', function () {
     $(targetId).show();
 });
 
+
+$('#weapon section#chargeBlade').show();
+});
