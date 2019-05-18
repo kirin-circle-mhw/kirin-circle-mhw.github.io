@@ -28,6 +28,8 @@ function createWeaponInfo(weapon_name) {
     var weapon_html = new XMLHttpRequest();
     weapon_html.open("GET", "/weapondata/" + weapon_name + ".html", true);
     weapon_html.onreadystatechange = function () {
+        $('#weapon').html(this.responseText);
+    };
 
-    }
+    weapon_html.send();
 }
