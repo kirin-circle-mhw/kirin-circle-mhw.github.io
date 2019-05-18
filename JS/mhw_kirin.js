@@ -1,14 +1,13 @@
 $(document).ready(function () {
     createCategory();
 
-
-    $('.category_btn').click(function () {
+    $('.category_btn').on('click', function () {
         weapon = $(this).data('name')
         targetId = '#' + weapon;
         // location.href = targetId;
         $('#weapon section').hide();
         $(targetId).show();
-    })
+    });
 
     $('#weapon section#chargeBlade').show();
 })
