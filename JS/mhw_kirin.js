@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    createCategory();
+
+
     $('.category_btn').click(function () {
         weapon = $(this).data('name')
         targetId = '#' + weapon;
@@ -9,12 +12,3 @@ $(document).ready(function () {
 
     $('#weapon section#chargeBlade').show();
 })
-
-
-function getJsonFile(fileName) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", fileName, true);
-    rawFile.send();
-    return rawFile.responseText;
-}
