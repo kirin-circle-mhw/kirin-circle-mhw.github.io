@@ -1,13 +1,11 @@
-$(document).ready(function () {
-    createCategory();
+createCategory();
 
-    $('.category_btn').on('click', function () {
-        weapon = $(this).data('name')
-        targetId = '#' + weapon;
-        // location.href = targetId;
-        $('#weapon section').hide();
-        $(targetId).show();
-    });
+$('.category_btn').on('click', function () {
+    weapon = $(this).data('name')
+    targetId = '#' + weapon;
+    // location.href = targetId;
+    $('#weapon section').hide();
+    $(targetId).show();
+});
 
-    $('#weapon section#chargeBlade').show();
-})
+$('#weapon section#chargeBlade').show();
