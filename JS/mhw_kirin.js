@@ -1,14 +1,14 @@
 $(document).ready(function () {
     createCategory();
+    createWeaponInfo('chargeBlade');
 
     $('#category').on('click', 'li', function () {
         weapon = $(this).data('name')
-        targetId = '#' + weapon;
-        // location.href = targetId;
-        $('#weapon section').hide();
-        $(targetId).show();
+        // targetId = '#' + weapon;
+        // $('#weapon section').hide();
+        // $(targetId).show();
+
+        createWeaponInfo(weapon);
     });
-
-
-    $('#weapon section#chargeBlade').show();
+    // $('#weapon section#chargeBlade').show();
 });
