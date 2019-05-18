@@ -23,3 +23,17 @@ function createCategory() {
     };
     rawFile.send();
 }
+
+function createWeponSection(weapon_name) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", "/weapondata/" + weapon_name + ".json", true);
+    rawFile.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var weapon_json = JSON.parse(this.responseText);
+
+            console.log(weapon_json);
+        }
+    }
+    rawFile.send();
+}

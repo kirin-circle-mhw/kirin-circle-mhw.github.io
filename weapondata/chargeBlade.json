@@ -23,7 +23,7 @@
         "검모드": [
           "기본 3콤보 :<p class=\"mouse_l\"></p> -> <p class=\"mouse_l\"></p> -> <p class=\"mouse_l\"></p>(회전베기★)",
           "모아베기 ★ : <p class=\"mouse_r\"></p>(쭉) -> (기모으는 모션 끝나자마자 때기)<b class=\"sub_comment\">기모으는 모션 끝나기 전에 때면 약한공격나갑니다.</b><b class=\"sub_comment\">기를 너무 오래모아도 약한공격이 나갑니다.</b>",
-
+          "방패찌르기 : <p class=\"mouse_lr\"></p><b class=\"sub_comment\">검공격 중간중간 넣을 수 있는 커멘드</b><b class=\"sub_comment\">방패찌르기 연계</b><ol><li style=\"list-style: decimal inside; margin-left: 25px;\"><p class=\"mouse_l\"></p> -> <p class=\"mouse_lr\"></p></li><li style=\"list-style: decimal inside; margin-left: 25px;\"><p class=\"mouse_l\"></p> -> <p class=\"mouse_l\"></p> -> <p class=\"mouse_lr\"></p></li><li style=\"list-style: decimal inside; margin-left: 25px;\"><p class=\"mouse_r\"></p>(모아베기) -> <p class=\"mouse_lr\"></p></li></ol>"
         ]
       }
     }
