@@ -12,3 +12,12 @@ $(document).ready(function () {
     });
     // $('#weapon section#chargeBlade').show();
 });
+
+$(window).scroll(function () {
+    var scrollValue = $(document).scrollTop();
+    if (scrollValue > 200) {
+        $("#btn_top").show();
+    } else {
+        $("#btn_top").hide();
+    }
+});
