@@ -267,3 +267,29 @@ b.sub_comment:before {
     vertical-align: top;
     width: 100%;
 }
+
+footer {
+    width: 100%;
+    background: #333;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+footer > div {
+    display: inline-block;
+    text-align: left;
+}
+
+footer > div a {
+    color: #FFF;
+}
+
+footer > div a:hover {
+    text-decoration: underline;
+}
+
+footer > div a:active {
+    color: #FFF;
+    text-decoration: none;
+}
