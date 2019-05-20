@@ -197,7 +197,7 @@ div.weapon_ex > ol > li{
 div.weapon_ex > ol > li > ul > li {
     margin-left: 1rem;
     font-size: 1.3rem;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 div.weapon_ex > ol > li > ul > li:before {
@@ -207,7 +207,7 @@ div.weapon_ex > ol > li > ul > li:before {
 div.weapon_ex > ol > li > ul > li > ul > li {
     font-size: 1.1rem;
     padding-left: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
 }
 
 div.weapon_ex > ol > li > ul > li > ul > li:before {
