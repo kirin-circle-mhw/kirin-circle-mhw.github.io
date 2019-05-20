@@ -280,6 +280,7 @@ footer {
 
 footer > div {
     display: inline-block;
+    word-break: keep-all;
     text-align: left;
 }
 
