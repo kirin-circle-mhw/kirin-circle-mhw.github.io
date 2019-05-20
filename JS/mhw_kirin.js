@@ -11,13 +11,19 @@ $(document).ready(function () {
         createWeaponInfo(weapon);
     });
     // $('#weapon section#chargeBlade').show();
-});
 
-$(window).scroll(function () {
-    var scrollValue = $(document).scrollTop();
-    if (scrollValue > 200) {
-        $("#btn_top").show();
-    } else {
-        $("#btn_top").hide();
-    }
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $("#btn_top").fadeIn();
+        } else {
+            $("#btn_top").fadeOut();
+        }
+    });
+
+    $('#btn_top').click(function () {
+        $('html, body').animate( { scrollTop : 0 }, 400 );
+        console.log('btn_top click');
+
+        return false;
+    })
 });
