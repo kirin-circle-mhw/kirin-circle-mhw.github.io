@@ -248,7 +248,22 @@ b.sub_comment:before {
     font-size: 1.1rem;
 }
 
-
 .display_none {
     display: none;
+}
+
+.gif_box {
+    display: inline-block;
+    width: 320px;
+    margin-right: 10px;
+}
+
+.gif_box > span {
+    display: block;
+    text-align: center;
+}
+
+.gif_box > img {
+    vertical-align: top;
+    width: 100%;
 }
