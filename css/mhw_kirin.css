@@ -299,7 +299,7 @@ footer > div a:active {
 #btn_top {
     display: none;
     position: fixed;
-    top: 10px;
+    bottom: 100px;
     right: 10px;
     width: 40px;
     height: 40px;
@@ -309,6 +309,7 @@ footer > div a:active {
     line-height: 40px;
     border-radius: 50%;
     opacity: 0.8;
+    cursor: pointer;
 }
 
 #btn_top > a {
