@@ -166,8 +166,24 @@ section > div > h3 {
     font-size: 20px;
     margin-bottom: 10px;
 }
+
 section > div > h3:before {
     content: '- ';
+}
+
+section > div > h3 > span.writer {
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+section > div > h3 > span.writer:before {
+    content: '[ Writer:';
+    margin-right: 3px;
+}
+
+section > div > h3 > span.writer:after {
+    content: ']';
+    margin-left: 3px;
 }
 
 .content_box {
@@ -191,7 +207,7 @@ section > div > h3:before {
     margin-right: 15px;
 }
 
-div.weapon_ex > ol > li{
+div.weapon_ex > ol > li {
     list-style: decimal inside;
     font-size: 1.5rem;
 }
