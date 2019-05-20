@@ -235,7 +235,7 @@ p.li_tab2 {
 
 p.li_tab2:before {
     content: '-';
-    margin-right: 1px;
+    margin-right: 3px;
 }
 
 b.sub_comment:before {
