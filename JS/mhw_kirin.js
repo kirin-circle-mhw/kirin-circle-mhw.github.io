@@ -22,8 +22,6 @@ $(document).ready(function () {
 
     $('#btn_top').click(function () {
         $('html, body').animate( { scrollTop : 0 }, 400 );
-        console.log('btn_top click');
-
         return false;
     })
 });
