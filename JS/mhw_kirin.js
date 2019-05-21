@@ -24,4 +24,14 @@ $(document).ready(function () {
         $('html, body').animate( { scrollTop : 0 }, 400 );
         return false;
     })
+
+    youtubBoxResize();
 });
+
+function youtubBoxResize() {
+    if ($(window).width() >= 560) {
+        $(".youtube_box").css("height", '315px').css('padding-bottom', '0');
+    } else {
+        $(".youtube_box").css("height", '0').css('padding-bottom', '56.25%');
+    }
+}

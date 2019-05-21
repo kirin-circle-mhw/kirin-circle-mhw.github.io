@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+    <title>MHW 키린 서클 무기 강좌</title>
+
+    <link rel="stylesheet" href="./css/mhw_kirin.css"/>
+    <link rel="stylesheet" href="./css/mhw_kirin_midia.css"/>
+    <link rel="stylesheet" href="./css/weapons.css"/>
+    <link rel="stylesheet" href="./css/commend.css"/>
+
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./JS/createContent.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $("#btn_top").fadeIn();
+                } else {
+                    $("#btn_top").fadeOut();
+                }
+            });
+
+            $('#btn_top').click(function () {
+                $('html, body').animate({scrollTop: 0}, 400);
+                return false;
+            })
+
+            youtubBoxResize();
+        });
+
+        function youtubBoxResize() {
+            if ($(window).width() > 560) {
+                $(".youtube_box").css("height", '315px').css('padding-bottom', '0');
+            } else {
+                $(".youtube_box").css("height", '0').css('padding-bottom', '56.25%');
+            }
+        }
+    </script>
+</head>
+<body>
+<h1 id="title">Monster Hunter:World 키린 써클</h1>
+<h2>무기 강좌 페이지</h2>
+
+<div id="weapon">
+    <section id="chargeBlade">
+        <h2>
+            <b class="weapon_icon chargeBlade">차지액스</b>
+        </h2>
+        <div class="weapon_info_block">
+            <h3 class="block_title">무기 소개</h3>
+            <div class="content_box weapon_info">
+                <img src="//game.capcom.com/manual/MHW_PC/img/page/81_11_1.jpg">
+                차지액스는 빠르게 휘두를 수 있는 검과 위력이 높은 도끼, 2가지 모드를 전환할 수 있는 무기입니다.<br>
+                병에 모은 에너지를 소비하여 화력을 높일 수 있습니다.
+            </div>
+        </div>
+        <div class="weapon_ex_block">
+            <h3 class="block_title">무기 강의<span class="writer">Rumin_</span></h3>
+            <div class="content_box weapon_ex">
+                <ol class="list_ol">
+                    <li>
+                        커스텀
+                        <ul>
+                            <li>
+                                필수스킬 <p class="sub_info">(공: 공통, 유: 유탄병, 강: 강속성병)</p>
+                                <ul>
+                                    <li>
+                                        집중 3!
+                                        <small class="sub_info">(공)</small>
+                                        : 병의 충전량이 늘어나 병을 빨리 모을 수 있습니다.
+                                    </li>
+                                    <li>
+                                        약점특효
+                                        <small class="sub_info">(공)</small>
+                                        : 회심 수급을 위해 이용합니다.
+                                    </li>
+                                    <li>
+                                        가드성능 1!
+                                        <small class="sub_info">(공)</small>
+                                        : 방패강화효과 + 가드포인트 + 가강1로 가드강화 5의 효과를 볼수 있으므로 1은 필수로 챙겨야 한다 생각합니다.
+                                    </li>
+                                    <li>
+                                        포술 3!
+                                        <small class="sub_info">(유)</small>
+                                        : 유탄병의 데미지를 향상시킵니다.
+                                    </li>
+                                    <li>
+                                        속성강화(빙, 화, 수, 뇌, 용) 3~5
+                                        <small class="sub_info">(강)</small>
+                                        : 강속성병은 속성딜의 영향을 받기때문에 해당 속성강화 스킬은 필수겠죠?!
+                                    </li>
+                                    <li>
+                                        무속성강화
+                                        <small class="sub_info">(유)</small>
+                                        : 유탄병의 끝판인 타이런트블로스2, 가이라암즈-적 의 경우 무속성이기 때문에 챙기면 좋습니다! 아니 챙기세요!
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                선택스킬 (지극히 개인적인 입장에서 추천)
+                                <ul>
+                                    <li>
+                                        장인 3 : 예리도는 어느 근접무기든 챙기는게 좋죠 하지만 꼭 흰예리까지 챙길 필요는 없다고 생각합니다. 그래서 3정도만 추천합니다.
+                                    </li>
+                                    <li>
+                                        혼신 : 검, 도끼딜을 챙기겠다하면 챙겨주시면 좋습니다. 차액은 스테미너를 쓸일이 거이 없습니다.
+                                    </li>
+                                    <li>
+                                        가드강화 : 가드불가 기술까지 뱅패로 막겠다!! 하면 추천합니다.(회피를 안해도 되서 생각보다 괜찮네요)
+                                    </li>
+                                    <li>
+                                        회피거리 증가 : 차지액스는 공격후 좌우 구르기가 스탭이기때문에 회피거리를 챙기면 은근 회피률이 많이 올라갑니다.
+                                    </li>
+                                    <li>
+                                        심안 : 오버히트 운영하거나 가열상태 조절이 힘들때, 몬스터의 육질이 너무 단단할때 챙기면 꿀입니다.(특히 베히 배따지... ㅂㄷㅂㄷ)
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        기본 커멘드
+                        <ul>
+                            <li>
+                                검모드
+                                <ul>
+                                    <li class="comment_box">
+                                        기본 3콤보 : <p class="mouse_l"></p> -> <p class="mouse_l"></p> -> <p class="mouse_l"></p>(회전베기★)
+                                    </li>
+                                    <li class="comment_box">
+                                        모아 2연 베기 : <p class="mouse_r"></p>(유지) -> (기모으는 모션 끝나자마자 때기)<b class="sub_comment">기모으는 모션 끝나기 전에 때면 약한공격나갑니다.</b><b class="sub_comment">기를 너무 오래모아도 약한공격이 나갑니다.</b>
+                                    </li>
+                                    <li class="comment_box">
+                                        방패찌르기 : (공격 후)<p class="mouse_lr"></p><b class="sub_comment">검공격 중간중간 넣을 수 있는 커멘드입니다. 2단 히트가 들어가지만 예리도가 빨리다는 단점이 있습니다.</b>
+                                        <b class="sub_comment">방패찌르기 연계</b>
+                                        <ol>
+                                            <li style="list-style: decimal inside; margin-left: 25px;">
+                                                <p class="mouse_l"></p> -> <p class="mouse_lr"></p>
+                                            </li>
+                                            <li style="list-style: decimal inside; margin-left: 25px;">
+                                                <p class="mouse_l"></p> -> <p class="mouse_l"></p> -> <p class="mouse_lr"></p>
+                                            </li>
+                                            <li style="list-style: decimal inside; margin-left: 25px;">
+                                                <p class="mouse_r"></p>(모아베기) -> <p class="mouse_lr"></p>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li class="comment_box">
+                                        스텝 :
+                                        (공격 후)
+                                        <p class="key_a"></p> or
+                                        <p class="key_d"></p>
+                                        ->
+                                        <p class="key_space"></p>
+                                        <b class="sub_comment">공격이후 좌,우 방향으로는 스텝으로 회피하게 됩니다.</b>
+                                        <b class="sub_comment">앞,뒤 방향은 그대로 구르기입니다.</b>
+                                    </li>
+                                    <li class="comment_box">
+                                        이동베기★ :
+                                        (공격 or 스탭 후)
+                                        (
+                                        <p class="key_wasd"></p>
+                                        +
+                                        <p class="mouse_r"></p>
+                                        )
+                                        <b class="sub_comment">이동 회전은 앞, 뒤, 양옆 어느방향 가능합니다.</b>
+                                    </li>
+                                    <li class="comment_box display_none">
+                                        <p class="mouse_l"></p>
+                                        <p class="mouse_r"></p>
+                                        <p class="mouse_lr"></p>
+                                        <p class="key_wasd"></p>
+                                        <p class="key_w"></p>
+                                        <p class="key_a"></p>
+                                        <p class="key_s"></p>
+                                        <p class="key_d"></p>
+                                        <p class="key_ctrl"></p>
+                                        <p class="key_space"></p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                도끼모드
+                                <ul>
+                                    <li>
+                                        우선 도끼모드는 잘 사용하지 않습니다. 강속성병의 고출력 운영이에나 쪼금 쓰입니다.(알아만 둡시다.)
+                                    </li>
+                                    <li class="comment_box">
+                                        발도<br>
+                                        <p class="li_tab2"></p> 납도 -> 도끼 발도★ : <p class="key_ctrl"></p><br>
+                                        <p class="li_tab2"></p>검 -> 도끼 발도★ : (검모드) <p class="key_ctrl"></p> -> <p class="mouse_l"></p>
+                                        <b class="sub_comment"><p class="key_ctrl"></p> + <p class="mouse_l"></p>동시에 눌러도 됩니다.</b>
+                                    </li>
+                                    <li class="comment_box">
+                                        기본공격 : <p class="mouse_l"></p> -> <p class="mouse_l"></p>
+                                    </li>
+                                    <li class="comment_box">
+                                        속성해방베기 : <p class="mouse_r"></p> (속성해방베기1) -> <p class="mouse_r"></p> (속성해방베기2) -> <p class="mouse_r"></p> (고출력 or 초고출력)
+                                        <b class="sub_comment">속성해방베기와 고출력은 병1개를 소모합니다.</b>
+                                        <b class="sub_comment">이 커멘드는 강속성병 고출력 운영시 조금 쓰이긴 합니다.</b>
+                                    </li>
+                                    <li class="comment_box">
+                                        발도 속성해방베기 : (납도->발도 or 발도후 기본공격) -> <p class="mouse_r"></p> (속성해방베기2) -> <p class="mouse_r"></p> (고출력 or 초고출력)
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        운영에 필요한 커멘드
+                        <ul>
+
+                            <li>
+                                병충전 / 방패강화 / 검강화
+                                <ul>
+                                    <li class="comment_box">
+                                        병충전 : 검모드에서 어택을 하면 병의 색상이 바뀌면서 충전할 수 있게 됩니다.<br>
+                                        <p class="li_tab"></p>커멘드: ( <p class="mouse_r"></p> + <p class="key_ctrl"></p> )
+                                        <b class="sub_comment">병의 색은 흰 -> 노랑 -> 빨강 순으로 충전됩니다.</b>
+                                        <b class="sub_comment">병의 색상별로 노란색은 3개, 빨간색은 6개가 충전됩니다.</b>
+                                        <b class="sub_comment">노란색 병 충전으로 3개 충전 후 다시 노란색으로 병 3개 충전할 시 6개가 됩니다.</b>
+                                        <b class="sub_comment">빨간 상태에서 추가로 어택할 경우 검이 가열 상태되며 가열상태에서는 검이 튕기게 됩니다.</b>
+                                        <b class="sub_comment">병 충전 후 다시 게이지를 모을 수 있습니다.</b>
+                                    </li>
+                                    <li>
+                                        병충전 관련 추가 설명<br>
+                                        <p class="li_tab"></p>저는 각 공격에 게이지치 0.5, 1, 2 를 붙여 활용 하고있습니다.<br>
+                                        <p class="li_tab2"></p>기본공격 1, 2타 = 0.5 | 견제베기, 회전베기, 이동베기, 검강화(검강화캔슬포함) = 1 | 모아 2연 베기 = 2<br>
+                                        <p class="li_tab"></p>해당 공격에 위와 같은 게이지치를 부여하고<br>
+                                        <p class="li_tab2"></p>게이지치 2 = 노랑게이지 | 게이지치 3 = 빨간게이지 | 게이지치 4.5? 5? = 가열상태<br>
+                                        <p class="li_tab"></p>쌓인 게이지치에 따른 게이지는 위와 같이 부여합니다.<br>
+                                        <p class="li_tab"></p>그래서 현재 게이지에서 어떤공격을 하면 풀게이지가 되는지 쉽게 파악하여 운영합니다!
+                                    </li>
+                                    <li class="comment_box">
+                                        방패강화 : 병을 소모하여 병 1개당 30초의 시간동안 방패를 강화합니다.
+                                        <b class="sub_comment">방패강화 시 가드강화+2 의 효과를 받습니다.</b>
+                                        <p class="li_tab"></p>커멘드 :<br>
+                                        <p class="li_tab2"></p>(병이 충전된 상태에서) <p class="mouse_l"></p> -> <p class="mouse_lr"></p> -> <p class="mouse_lr"></p> -> <p class="key_ctrl"></p><br>
+                                        <p class="li_tab2"></p>(도끼모드에서) <p class="mouse_lr"></p> -> <p class="key_ctrl"></p>
+                                        <b class="sub_comment">해당 커멘드가 모두 초고출/고출력 이후 <p class="key_ctrl"></p>로 캔슬하는 커멘드 입니다.</b>
+                                        <b class="sub_comment">엄밀히 말하면 캔슬이 아니라 속성강화베기★ 입니다.</b>
+                                    </li>
+                                    <li class="comment_box">
+                                        검강화 : 방패강화 상태에서 검을 강화합니다. 검강화를 하게되면 심안 효과를 받습니다.<br>
+                                        <p class="li_tab"></p>커멘드 : ( <p class="mouse_r"></p> + <p class="key_ctrl"></p> ) -> <p class="mouse_l"></p>유지 -> (방패에 검 들어간 뒤 때기)
+                                        <b class="sub_comment">검강화 후 고압속성베기가 나가는데 데미지가 쏠쏠합니다.</b>
+                                        <b class="sub_comment">너무 오래 누르면 약해집니다. 검강화가 끝나자마자 때야합니다.</b>
+                                        <p class="li_tab"></p>검강화 캔슬 : 검강화 커멘드를 입력 후 유지 않지 않고 바로 때서 캔슬합니다. 병충전 후 빠른 게이지 충전할때 사용합니다.
+                                    </li>
+                                    <li class="comment_box">
+                                        병충전, 방패강화, 검강화, 충전풀게이지 한번에 끝내는 콤보 (모두 타격 판정 받는다는 조건!)<br>
+                                        (납도상태) -> 견제베기 ( <p class="key_w"></p> + <p class="mouse_l"></p> ) -> 모아2연베기 <p class="mouse_r"></p> -> 회전베기 <p class="mouse_l"></p> -> 병충전 ( <p class="mouse_r"></p> + <p class="key_ctrl"></p> )
+                                        -> 검강화캔슬 <p class="mouse_l"></p>
+                                        -> 모아2연베기 <p class="mouse_r"></p> -> 방패찌르기 <p class="mouse_lr"></p> -> 고출력 <p class="mouse_lr"></p> -> 캔슬(속성강화베기) <p class="key_ctrl"></p>
+                                        -> 병충전 ( <p class="mouse_r"></p> + <p class="key_ctrl"></p> ) -> 검강화 <p class="mouse_l"></p>(유지후 때기) -> 모아2연베기 <p class="mouse_r"></p> -> 회전베기 <p class="mouse_l"></p>
+                                        <b class="sub_comment">이 커멘드가 가장 빠르며 모든강화, 병충전, 게이지 까지 모두 충전된 상태가 됩니다.</b>
+                                        <b class="sub_comment">해당 커멘드는 유지, 때기에 대해 자세히 없으니 커멘드명으로 확인해주세요.</b>
+                                        <p class="li_tab"></p>
+                                        <div class="gif_box">
+                                            <img src="/img/chargeBlade/chargeBlade_combo.gif"/>
+                                        </div>
+                                        <b class="sub_comment">해당 움짤에서 강화게이지를 주목하면서 봐주세요. (용량상 움짤 크기가 작습니다 ㅠㅅ ㅠ)</b>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                초고출력/고출력
+                                <ul>
+                                    <li>차지액스의 꽃 초.고.출.력입니다. 초고출/고출력의 정식명칭으 초고출력 속성해방베기/ 고출력 속성해방베기 입니다.</li>
+                                    <li>초고출력/고출력은 병이 충전된 상태이여야 하며, 강패강화가 돼있다면 초고출력, 안돼있다면 고출력이 나가게됩니다.</li>
+                                    <li>초고출력은 충전된 모든병을 소모하고, 고출력에경우 병 1개만 소모하게 됩니다.</li>
+                                    <li class="comment_box">
+                                        검상태 : <p class="mouse_l"></p> -> <p class="mouse_lr"></p> -> <p class="mouse_lr"></p> <br>
+                                        <p class="li_tab"></p>도끼모드 : <p class="mouse_lr"></p> or (도끼모드 속성해방베기/발도속성해방베기 참고)
+                                    </li>
+                                    <li class="comment_box">
+                                        방패강화 상태에서의 고출력 : (초고출력 모션 진입) -> ( <p class="key_s"></p> + <p class="mouse_l"></p> )
+                                    </li>
+                                    <li class="comment_box">
+                                        카운터 초고출/고출력 : (가드밀림 모션 중) -> <p class="mouse_lr"></p>
+                                        <b class="sub_comment">가드포인트 성공해야 써진다고 아시는분도 계시는데... 아닙니다!!!</b>
+                                        <b class="sub_comment">가드의 밀림 정도가 심하지만 않다면 모두 카운터 가능합니다!</b>
+                                    </li>
+                                    <li class="comment_box">
+                                        초고출의 추가 팁!<br>
+                                        <p class="li_tab"></p>초고출 도중에 방향 전환이 가능합니다! 전환할 방향키 꾹누르면서 커멘트를 넣으면 약간 방향 조절이 가능하고,<br>
+                                        <p class="li_tab"></p>
+                                        <p class="mouse_l"></p> -> <p class="mouse_lr"></p> 이후 조금 쉬면서 방향조절하고 <p class="mouse_lr"></p>을 하면 그나마 더 큰 방향이 틀어집니다.<br>
+                                        <p class="li_tab"></p>방향 조절은 솔직히 감각적으로 해야합니다. (이런말 최대한 안쓰려고 했는데... 죄송합니다. ㅠㅅ ㅠ)
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                가드포인트(GP)
+                                <ul>
+                                    <li>
+                                        가드포인트는 일반 가드와 달리 특정 "모션"에서 발동되는 스킬입니다. 따라 따로 커멘드는 없습니다.
+                                        <b class="sub_comment">가드포인트가 발동 되면 가드성능+2 의 효과가 일어납니다.</b>
+                                        <b class="sub_comment">따라서 방패강화상태에서 가드포인트가 발동되면 가드성능+4 의 효과가 있어 가드성능 1만 챙기면 가드성능 5의 효과를 보게 됩니다.</b>
+                                    </li>
+                                    <li>
+                                        가드포인트는 발동시간이 짧습니다. 따라서 피격판정 직전에 사용해야합니다.
+                                        <b class="sub_comment">단테 차액을 이용하면 가드포인트 발동시 몸에서 빨간띠가 생성되는 임팩트가 있어 연습하기 좋습니다.</b>
+                                    </li>
+                                    <li>
+                                        가드포인트가 발동하는 모션 :<br>
+                                        <p class="li_tab2"></p>납도상태에서 도끼발도<br>
+                                        <p class="li_tab2"></p>검모드에서 도끼모드 변경 (가장 많이 씁니다!! 이걸로 연습합시다.)<br>
+                                        <p class="li_tab2"></p>회전베기<br>
+                                        <p class="li_tab2"></p>이동베기
+                                        <b class="sub_comment">커멘드 설명 중간중간 ★ 가 들어간 모션들입니다.</b>
+                                        <b class="sub_comment">모션들을 보면 하나같이 회전 이후, 도끼납도를 할때 방패로 앞을 가리는 모션을 갖고있습니다.</b>
+                                        <br>
+                                        <div class="gif_box">
+                                            <span>방패강화X 가드, 가드포인트 비교</span>
+                                            <img src="/img/chargeBlade/chargeBlade_guard_non_force.gif"/>
+                                        </div>
+                                        <div class="gif_box">
+                                            <span>방패강화O 가드, 가드포인트 비교</span>
+                                            <img src="/img/chargeBlade/chargeBlade_guard_force.gif"/>
+                                        </div>
+                                        <b class="sub_comment">보시면 강화X 가드, 강화X 가드포인트, 강화O 가드 는 별차이없지만 강화O 가드포인트는 확실히 덜 밀려나는걸 확인할 수 있습니다.</b>
+                                        <b class="sub_comment">그렇다고 강화X 가드와 (강화X 가드포인트, 강화O 가드)가 똑같다는건 절.대. 아닙니다. 엄밀히 가드성능1과 가드성능3의 차이입니다.</b>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        운영법
+                        <ul>
+                            <li>
+                                초고출 운영
+                                <ul>
+                                    <li>
+                                        전반적인 초고출의 운영을 간단히 말하자면 빠른병충전, 방패강화 -> 초고출 반복입니다.<br>
+                                        <p class="li_tab"></p>그러기 위하여 저는 모아 2연베기 후 회전베기, 병충전 후 검강화 캔슬 이 콤보들을 가장 많이 사용하고 있습니다.<br>
+                                        <p class="li_tab"></p>물론 처음에는 부동복장과 함께! 당연 풀콤보로 방패강화, 검강화, 병충전, 빨간게이지 만들고 시작합니다.
+                                    </li>
+                                    <li>
+                                        차지액스의 검은 한손검, 쌍검 보다는 쪼금 길지만, 다른무기에 비해 짧습니다. 그러니 몬스터에게 붙어야 합니다!<br>
+                                        <p class="li_tab"></p>파티플할때는 개인적으로 옆구리, 뒷다리 쪽을 많이 선호하여 그쪽에 붙어있는 편입니다.<br>
+                                        <p class="li_tab"></p>솔플할때는 어쩔수 없이 머리 정면만 피하고, 머리 옆쪽, 앞다리쪽을 많이 공략합니다.
+                                    </li>
+                                    <li>
+                                        초고출력 타이밍은 부동복장이 있다면 언제든지 타이밍이 됩니다만, 부동복장이 없다면<br>
+                                        <p class="li_tab"></p>파티플 시 다른 파티원들 볼때가 가장 편합니다.<br>
+                                        <p class="li_tab"></p>솔플시에는 후딜이 긴 패턴이나, 항시 가드나 GP를 준비하여 카운터 초고출력을 날리는 편입니다.
+                                    </li>
+                                    <li>
+                                        여기서 가장 중요한점은!!!<br>
+                                        <p class="li_tab"></p>차지액스도 방패가 있는 무기입니다!! 초고출을 어떻게든 우겨놓는 것보다 가드나 GP로 생존하며<br>
+                                        <p class="li_tab"></p>카운터 초고출력을 날리는게 더 효율적이라 생각합니다.(물론 부동복장화 회복커강이라면 두려울께 없죠)<br>
+                                        <p class="li_tab"></p>가드가 있다는걸 잊어선 안됩니다.(저도 가드 잊고 수레를 많이 타죠.... 크흠...)
+                                    </li>
+                                    <li>
+                                        초고출의 거리 조절이 힘들어 하시는데 간단히 이동베기를 이용하면 거리를 쉽게 잴수 있습니다.<br>
+                                        <p class="li_tab"></p>몬스터 근접 위치 -> 뒤로 이동베기 그 위치정도면 초고출 충분히 맞습니다.<br>
+                                        <p class="li_tab"></p>그리고! 초고출은 측면에서 맞추기보단 정면, 후면에서 맞추는게 좋습니다.(최소 대각선으로라도 맞추는게 좋습니다.)<br>
+                                        <p class="li_tab"></p>유탄병의 경우 1자로 병이 터지고 강속성병은 Y자로 터지기 때문에 측면보다 정,후면이 더 많이 맞습니다.<br>
+                                        <p class="li_tab"></p>정, 후면으로 해야 약점부위에 잘 맞아서 경직치도 잘 쌓입니다.
+                                    </li>
+                                    <li>
+                                        요약하자면!!!<br>
+                                        <p class="li_tab"></p>1. 병을 빨리 모은다! (모아 2연베기를 잘 써야한다!)<br>
+                                        <p class="li_tab"></p>2. 가드가 있다는걸 잊지 말고! 가드와 GP를 머리속에 항상 인지한다!<br>
+                                        <p class="li_tab"></p>3. 최대한 측면 초고출은 피한다(최소 대각선으로라도)<br>
+                                        <p class="li_tab"></p>4. 다운시 참아왔던 초고출을 마구 날린다!
+                                    </li>
+                                    <li>
+                                        참고 영상 (출처 : Rumin_ 유투브)
+                                        <b class="sub_comment">홍보아님... 무튼 아님!!</b>
+                                        <div class="youtube_box">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lbgr6Yb-h9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                오버히트
+                                <ul>
+                                    <li>준비중......</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div>
+        해당 자료는 Monster Hunter:World 키린 써클원들에 의해 작성됐으며, 해당 자료가 필요할 경우 마음껏 퍼가시되 출처는 꼭 남겨주시기 바랍니다.<br>
+        제작자 : Rumin_ (<a href="mailto:rumination.ha@gmail.com">rumination.ha@gmail.com</a>)
+    </div>
+</footer>
+
+<div id="btn_top">
+    top
+</div>
+</body>
+</html>

@@ -338,3 +338,16 @@ footer > div a:active {
     font-weight: bold;
     color: #FFF;
 }
+
+.youtube_box {
+    position: relative;
+    max-width: 560px;
+    height: 0;
+    margin-left: 1.3rem;
+}
+
+.youtube_box > iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
