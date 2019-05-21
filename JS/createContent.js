@@ -11,9 +11,11 @@ function createCategory() {
                 "<ul>"
 
             for (i = 0; i < weapon_list.length; i++) {
-                html_text += '<li class="category_btn" data-name="' + weapon_list[i].name_en + '">' +
-                    weapon_list[i].name +
-                    '</li>';
+                if(weapon_list[i].state) {
+                    html_text += '<li class="category_btn" data-name="' + weapon_list[i].name_en + '">' +
+                        weapon_list[i].name +
+                        '</li>';
+                }
             }
 
             html_text += '</ul>';

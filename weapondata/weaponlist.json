@@ -2,59 +2,73 @@
   "Category": [
     {
       "name" : "대검",
-      "name_en" : "greatSword"
+      "name_en" : "greatSword",
+      "state" : false
     },
     {
       "name" : "태도",
-      "name_en" : "longSword"
+      "name_en" : "longSword",
+      "state" : false
     },
     {
       "name" : "한손검",
-      "name_en" : "swordShield"
+      "name_en" : "swordShield",
+      "state" : false
     },
     {
       "name" : "쌍검",
-      "name_en" : "dualBlades"
+      "name_en" : "dualBlades",
+      "state" : true
     },
     {
       "name" : "해머",
-      "name_en" : "hammer"
+      "name_en" : "hammer",
+      "state" : false
     },
     {
       "name" : "수렵피리",
-      "name_en" : "huntingHorn"
+      "name_en" : "huntingHorn",
+      "state" : false
     },
     {
       "name" : "랜스",
-      "name_en" : "lance"
+      "name_en" : "lance",
+      "state" : false
     },
     {
       "name" : "건랜스",
-      "name_en" : "gunLance"
+      "name_en" : "gunLance",
+      "state" : false
     },
     {
       "name" : "슬래시액스",
-      "name_en" : "switchAxe"
+      "name_en" : "switchAxe",
+      "state" : false
     },
     {
       "name" : "차지액스",
-      "name_en" : "chargeBlade"
+      "name_en" : "chargeBlade",
+      "state" : true
     },
     {
       "name" : "조충곤",
-      "name_en" : "insectGlaive"
+      "name_en" : "insectGlaive",
+      "state" : false
     },
     {
       "name" : "라이트보우건",
-      "name_en" : "lightBowgun"
+      "name_en" : "lightBowgun",
+      "state" : false
     },
     {
       "name" : "헤비보우건",
-      "name_en" : "heavyBowgun"
+      "name_en" : "heavyBowgun",
+      "state" : false
     },
     {
       "name" : "활",
-      "name_en" : "bow"
+      "name_en" : "bow",
+      "state" : false
     }
   ]
 }
