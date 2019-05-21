@@ -1,6 +1,6 @@
 $(document).ready(function () {
     createCategory();
-    createWeaponInfo('chargeBlade');
+    // createWeaponInfo('chargeBlade');
 
     $('#category').on('click', 'li', function () {
         weapon = $(this).data('name')
