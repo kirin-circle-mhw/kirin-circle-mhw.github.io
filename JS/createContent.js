@@ -29,7 +29,17 @@ function createWeaponInfo(weapon_name) {
     weapon_html.open("GET", "/weapondata/" + weapon_name + ".html", true);
     weapon_html.onreadystatechange = function () {
         $('#weapon').html(this.responseText);
+
+        youtubBoxResize();
     };
 
     weapon_html.send();
+}
+
+function youtubBoxResize() {
+    if ($(window).width() >= 560) {
+        $(".youtube_box").css("height", '315px').css('padding-bottom', '0');
+    } else {
+        $(".youtube_box").css("height", '0').css('padding-bottom', '56.25%');
+    }
 }
