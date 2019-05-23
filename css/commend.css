@@ -29,6 +29,12 @@
     background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-Ctrl.png") no-repeat;
 }
 
+.key_v {
+    width: 47px;
+    height: 19px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-V.png") no-repeat;
+}
+
 .key_wasd {
     width: 61px;
     height: 37px;
