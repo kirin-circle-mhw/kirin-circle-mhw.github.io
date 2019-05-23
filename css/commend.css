@@ -23,6 +23,14 @@
     background: url("../img/key-mouse_LR.png") no-repeat;
 }
 
+
+
+.btn_pull {
+    width: 20px;
+    height: 19px;
+    background: url("../img/btn_pull.png") no-repeat;
+}
+
 .key_ctrl {
     width: 47px;
     height: 19px;
