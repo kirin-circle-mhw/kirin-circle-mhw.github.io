@@ -13,7 +13,7 @@
     {
       "name" : "한손검",
       "name_en" : "swordShield",
-      "state" : false
+      "state" : true
     },
     {
       "name" : "쌍검",

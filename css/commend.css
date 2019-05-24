@@ -43,6 +43,12 @@
     background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-V.png") no-repeat;
 }
 
+.key_e {
+    width: 20px;
+    height: 19px;
+    background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-E.png") no-repeat;
+}
+
 .key_wasd {
     width: 61px;
     height: 37px;
