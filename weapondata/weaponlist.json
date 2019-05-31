@@ -68,7 +68,7 @@
     {
       "name" : "활",
       "name_en" : "bow",
-      "state" : false
+      "state" : true
     }
   ]
 }
