@@ -33,7 +33,7 @@
     {
       "name" : "랜스",
       "name_en" : "lance",
-      "state" : false
+      "state" : true
     },
     {
       "name" : "건랜스",
