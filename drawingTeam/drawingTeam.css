@@ -179,8 +179,87 @@ h1, h2 {
 #teamArea > div > dl > dl > dd:first-child > dl > dt:after {
     content: '';
     display: inline-block;
-    width: 25px;
-    height: 25px;
-    background: url(../img/crawn.png) no-repeat 120% 120%;
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    background: url("https://kirin-circle-mhw.github.io/img/crawn.png") no-repeat;
+    /*background: url(../img/crawn.png) no-repeat;*/
+    background-size: cover;
     vertical-align: middle;
+}
+
+#teamArea > div > dl > dl > dd > dl > dd:before {
+    content: '사용무기 : ';
+    opacity: 0.5;
+}
+
+#teamArea > div > dl > dl > dd > dl > dd {
+    color: #333;
+}
+
+
+#drawingForm {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#drawingForm > div {
+    display: block;
+    width: 100%;
+    padding: 30px 10px;
+}
+
+#drawingForm > div.member {
+    border-bottom: 1px dotted #333;
+}
+
+#drawingForm > div.member > dl {
+    display: inline-block;
+    width: 80%;
+}
+
+#drawingForm > div.member > dl > dt {
+    display: block;
+    font-size: 1.5rem;
+}
+
+#drawingForm > div.member > dl > dl {
+    color: #333;
+}
+
+#drawingForm > div.member > dl > dl:before {
+    content: '사용무기 : ';
+    opacity: 0.5;
+}
+
+#drawingForm > div.member > button {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    vertical-align: text-bottom;
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #aaa;
+}
+
+#drawingForm > div.btn_area {
+    display: flex;
+}
+
+#drawingForm > div.btn_area > button {
+    flex: 1;
+    display: inline-block;
+    border: 1px solid #333333;
+    background: #aaaaaa;
+    border-radius: 5px;
+    margin: 5px;
 }
