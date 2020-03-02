@@ -107,16 +107,22 @@ $(document).ready(function () {
     let waitFirstClick = true;
 
     $('.btn_drawing').click(function () {
-        member_list = map_members;
         if (map_members.len() == 0) {
             if (wait_member.len() != 0) {
-                member_list = wait_member;
+                $('div.btn_area > button.btn_wait').hide();
+                // member_list = wait_member;
+                for (i = 0; i < wait_member.len(); i++) {
+                    map_members.push(wait_member.put(i));
+                }
+                alert('지금부터 pass된 맴버입니다.');
+                $('div#drawingForm > h2').append('<span>( pass됐던 맴버 )</span>')
             } else {
                 alert('모든 맴버 추첨이 끝났습니다.');
                 return false;
             }
         }
 
+        member_list = map_members;
         idx = Math.floor(Math.random() * member_list.len());
         member = member_list.get(idx);
 

@@ -211,6 +211,12 @@ h1, h2 {
     transform: translate(-50%, -50%);
 }
 
+#drawingForm > h2 > span {
+    font-size: 1rem;
+    color: #888;
+    margin-left: 5px;
+}
+
 #drawingForm > div {
     display: block;
     width: 100%;
