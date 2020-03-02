@@ -207,6 +207,10 @@ $(document).ready(function () {
         team_memeber.push(map_members.put(idx));
         setMemberList();
     });
+
+    $('#btnStarCardClose').click(function () {
+        $('#startCard').hide();
+    });
 });
 
 
