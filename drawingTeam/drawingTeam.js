@@ -26,7 +26,7 @@ members = [
     },
     { // 5
         "name": "테이스트오브와일드",
-        "weapon": "-",
+        "weapon": "조충곤",
         "complete": false
     },
     { // 6
