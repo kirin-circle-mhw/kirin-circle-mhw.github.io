@@ -111,9 +111,10 @@ $(document).ready(function () {
         if (map_members.len() == 0) {
             if (wait_member.len() != 0) {
                 member_list = wait_member;
+            } else {
+                alert('모든 맴버 추첨이 끝났습니다.');
+                return false;
             }
-            alert('모든 맴버 추첨이 끝났습니다.');
-            return false;
         }
 
         idx = Math.floor(Math.random() * member_list.len());
