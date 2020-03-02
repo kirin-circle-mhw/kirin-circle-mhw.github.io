@@ -1,84 +1,18 @@
 members = [
-    { // 0
-        "name": "루민",
-        "weapon": "차지액스, 해머, 태도, 슬래시액스, 수렵피리",
-        "complete": false
-    },
-    { // 1
-        "name": "꾸왕",
-        "weapon": "한손검, 태도, 대검, 헤비보우건, 수렵피리",
-        "complete": false
-    },
-    { // 2
-        "name": "무반동속사",
-        "weapon": "건랜스, 태도, 대검, 슬래시액스",
-        "complete": false
-    },
-    { // 3
-        "name": "snowlady",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 4
-        "name": "레나",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 5
-        "name": "테이스트오브와일드",
-        "weapon": "조충곤",
-        "complete": false
-    },
-    { // 6
-        "name": "커피물조절장인",
-        "weapon": "랜스, 해머, 슬래시액스",
-        "complete": false
-    },
-    { // 7
-        "name": "띠용띠용",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 8
-        "name": "진자자",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 9
-        "name": "댈라미",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 10
-        "name": "연휼",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 11
-        "name": "KANTELUV",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 12
-        "name": "혀B",
-        "weapon": "활",
-        "complete": false
-    },
-    { // 13
-        "name": "PUMPKIN",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 14
-        "name": "ssolid",
-        "weapon": "-",
-        "complete": false
-    },
-    { // 15
-        "name": "톱과젤리",
-        "weapon": "건랜스, 한손검",
-        "complete": false
-    }
+      {"name": "꾸왕", "weapon": "한손검, 태도, 대검, 헤비보우건, 수렵피리", "complete": false}
+    , {"name": "무반동속사", "weapon": "건랜스, 태도, 대검, 슬래시액스", "complete": false}
+    , {"name": "snowlady", "weapon": "활", "complete": false}
+    , {"name": "테이스트오브와일드", "weapon": "조충곤", "complete": false}
+    , {"name": "커피물조절장인", "weapon": "랜스, 해머, 슬래시액스", "complete": false}
+    , {"name": "띠용띠용", "weapon": "건랜스", "complete": false}
+    , {"name": "진자자", "weapon": "쌍검", "complete": false}
+    , {"name": "댈라미", "weapon": "-", "complete": false}
+    , {"name": "연휼", "weapon": "대검, 건랜스", "complete": false}
+    , {"name": "KANTELUV", "weapon": "-", "complete": false}
+    , {"name": "혀B", "weapon": "활", "complete": false}
+    , {"name": "PUMPKIN", "weapon": "수렵피리, 조충곤", "complete": false}
+    // , {"name": "루민", "weapon": "차지액스, 해머, 태도, 슬래시액스, 수렵피리", "complete": false}
+    // , {"name": "레나", "weapon": "랜스, 해머", "complete": false}
 ];
 
 
@@ -172,10 +106,10 @@ $(document).ready(function () {
     });
 
     $('.btn_area > button').click(function () {
-        team = $(this).data('team');
+        let team = $(this).data('team');
 
-        team_memeber = new HashMap();
-        max_mamber = 4;
+        let team_memeber = new HashMap();
+        let max_member = 4;
         switch (team) {
             case 1:
                 team_memeber = team1_member;
@@ -191,7 +125,7 @@ $(document).ready(function () {
                 break;
             case 'wait':
                 team_memeber = wait_member;
-                max_mamber = 16;
+                max_member = 16;
                 if (waitFirstClick) {
                     wait_member.put(0);
                     waitFirstClick = false;
@@ -199,7 +133,7 @@ $(document).ready(function () {
                 break;
         }
 
-        if (team_memeber.len() >= max_mamber) {
+        if (team_memeber.len() >= max_member) {
             alert('해당 팀 인원이 모두 찼습니다.')
             return false;
         }
@@ -216,10 +150,13 @@ $(document).ready(function () {
 
 function setMemberList() {
     $('.draw_member').html('<dt>-</dt><dd>-</dd>')
-    member_list = new HashMap();
+    let member_list = new HashMap();
 
-    for (team = 1; team <= 4; team++) {
-        switch (team) {
+    let member_info;
+    let member_tag;
+
+    for (let teamNum = 1; teamNum <= 4; teamNum++) {
+        switch (teamNum) {
             case 1:
                 member_list = team1_member;
                 break;
@@ -234,12 +171,12 @@ function setMemberList() {
                 break;
         }
 
-        $('.team' + team + ' > dl').html('');
+        $('.team' + teamNum + ' > dl').html('');
 
         for (i = 0; i < member_list.len(); i++) {
             member_info = member_list.get(i);
             member_tag = '<dd><dl><dt>' + member_info.name + '</dt><dd>' + member_info.weapon + '</dd></dl></dd>'
-            $('.team' + team + ' > dl').append(member_tag);
+            $('.team' + teamNum + ' > dl').append(member_tag);
         }
     }
 }
