@@ -182,8 +182,8 @@ h1, h2 {
     width: 15px;
     height: 15px;
     margin-left: 3px;
-    background: url("https://kirin-circle-mhw.github.io/img/crawn.png") no-repeat;
-    /*background: url(../img/crawn.png) no-repeat;*/
+    /*background: url("https://kirin-circle-mhw.github.io/img/crawn.png") no-repeat;*/
+    background: url(../img/crawn.png) no-repeat;
     background-size: cover;
     vertical-align: middle;
 }
