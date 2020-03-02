@@ -103,6 +103,8 @@ for (i = 0; i < members.length; i++) {
 
 
 $(document).ready(function () {
+    setMemberList();
+
     let idx = 0;
     let waitFirstClick = true;
 
@@ -163,7 +165,7 @@ $(document).ready(function () {
         }
 
         team_memeber.push(map_members.put(idx));
-        setMemberList()
+        setMemberList();
     });
 });
 
