@@ -114,21 +114,21 @@ wait_member = new HashMap();
 wait_member.push('-');
 
 complete_member = [
-    [0],
-    [1],
-    [2],
-    [4]
+    [],
+    [],
+    [],
+    []
 ];
 
 for (i = 0; i < complete_member.length; i++) {
     for (j = 0; j < complete_member[i].length; j++) {
-        if (i == 0) {
+        if (i === 0) {
             team1_member.push(members[complete_member[i][j]]);
-        } else if (i == 1) {
+        } else if (i === 1) {
             team2_member.push(members[complete_member[i][j]]);
-        } else if (i == 2) {
+        } else if (i === 2) {
             team3_member.push(members[complete_member[i][j]]);
-        } else if (i == 3) {
+        } else if (i === 3) {
             team4_member.push(members[complete_member[i][j]]);
         }
 
