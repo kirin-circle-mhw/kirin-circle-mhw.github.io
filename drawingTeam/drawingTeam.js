@@ -1,67 +1,83 @@
 members = [
     {
         "name": "루민",
-        "weapon": "차지액스, 해머, 태도, 슬래시액스"
+        "weapon": "차지액스, 해머, 태도, 슬래시액스, 수렵피리",
+        "complete": false
     },
     {
         "name": "꾸왕",
-        "weapon": "한손검"
+        "weapon": "한손검, 태도, 대검, 헤비보우건, 수렵피리",
+        "complete": false
     },
     {
         "name": "무반동속사",
-        "weapon": "건랜스, 태도, 대검, 슬래시액스"
+        "weapon": "건랜스, 태도, 대검, 슬래시액스",
+        "complete": false
     },
     {
         "name": "snowlady",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "레나",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "테이스트오브와일드",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "커피물조절장인",
-        "weapon": "랜스, 해머, 슬래시액스"
+        "weapon": "랜스, 해머, 슬래시액스",
+        "complete": false
     },
     {
         "name": "띠용띠용",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "진자자",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "댈라미",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "연휼",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "KANTELUV",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "혀B",
-        "weapon": "활"
+        "weapon": "활",
+        "complete": false
     },
     {
         "name": "PUMPKIN",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "ssolid",
-        "weapon": "-"
+        "weapon": "-",
+        "complete": false
     },
     {
         "name": "톱과젤리",
-        "weapon": "건랜스, 한손검"
+        "weapon": "건랜스, 한손검",
+        "complete": false
     }
 ];
 
@@ -97,14 +113,34 @@ team4_member = new HashMap();
 wait_member = new HashMap();
 wait_member.push('-');
 
-for (i = 0; i < members.length; i++) {
-    map_members.push(members[i]);
+complete_member = [
+    [0],
+    [1],
+    [2],
+    [4]
+];
+
+for (i = 0; i < complete_member.length; i++) {
+    for (j = 0; j < complete_member[i].length; j++) {
+        if (i == 0) {
+            team1_member.push(members[complete_member[i][j]]);
+        } else if (i == 1) {
+            team2_member.push(members[complete_member[i][j]]);
+        } else if (i == 2) {
+            team3_member.push(members[complete_member[i][j]]);
+        } else if (i == 3) {
+            team4_member.push(members[complete_member[i][j]]);
+        }
+
+        members[complete_member[i][j]].complete = true;
+    }
 }
 
-team1_member.push(map_members.put(0))
-team2_member.push(map_members.put(1))
-team3_member.push(map_members.put(2))
-team4_member.push(map_members.put(4))
+for (i = 0; i < members.length; i++) {
+    if (members[i].complete === false) {
+        map_members.push(members[i]);
+    }
+}
 
 $(document).ready(function () {
     setMemberList();
