@@ -101,6 +101,10 @@ for (i = 0; i < members.length; i++) {
     map_members.push(members[i]);
 }
 
+team1_member.push(map_members.put(0))
+team2_member.push(map_members.put(1))
+team3_member.push(map_members.put(2))
+team4_member.push(map_members.put(4))
 
 $(document).ready(function () {
     setMemberList();
