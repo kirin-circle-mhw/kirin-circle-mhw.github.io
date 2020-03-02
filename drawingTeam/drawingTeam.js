@@ -1,80 +1,80 @@
 members = [
-    {
+    { // 0
         "name": "루민",
         "weapon": "차지액스, 해머, 태도, 슬래시액스, 수렵피리",
         "complete": false
     },
-    {
+    { // 1
         "name": "꾸왕",
         "weapon": "한손검, 태도, 대검, 헤비보우건, 수렵피리",
         "complete": false
     },
-    {
+    { // 2
         "name": "무반동속사",
         "weapon": "건랜스, 태도, 대검, 슬래시액스",
         "complete": false
     },
-    {
+    { // 3
         "name": "snowlady",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 4
         "name": "레나",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 5
         "name": "테이스트오브와일드",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 6
         "name": "커피물조절장인",
         "weapon": "랜스, 해머, 슬래시액스",
         "complete": false
     },
-    {
+    { // 7
         "name": "띠용띠용",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 8
         "name": "진자자",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 9
         "name": "댈라미",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 10
         "name": "연휼",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 11
         "name": "KANTELUV",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 12
         "name": "혀B",
         "weapon": "활",
         "complete": false
     },
-    {
+    { // 13
         "name": "PUMPKIN",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 14
         "name": "ssolid",
         "weapon": "-",
         "complete": false
     },
-    {
+    { // 15
         "name": "톱과젤리",
         "weapon": "건랜스, 한손검",
         "complete": false
