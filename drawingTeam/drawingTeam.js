@@ -88,11 +88,13 @@ $(document).ready(function () {
     let waitFirstClick = true;
 
     $('.btn_drawing').click(function () {
+        let wait_member_len = 0;
         if (map_members.len() == 0) {
             if (wait_member.len() != 0) {
                 $('div.btn_area > button.btn_wait').hide();
                 // member_list = wait_member;
-                for (i = 0; i < wait_member.len(); i++) {
+                wait_member_len = wait_member.len();
+                for (i = 0; i < wait_member_len; i++) {
                     map_members.push(wait_member.put(0));
                 }
                 alert('지금부터 pass된 맴버입니다.');
