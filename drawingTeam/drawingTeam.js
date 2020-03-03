@@ -1,18 +1,19 @@
 members = [
-      {"name": "꾸왕", "weapon": "한손검, 태도, 대검, 헤비보우건, 수렵피리", "complete": false}
-    , {"name": "무반동속사", "weapon": "건랜스, 태도, 대검, 슬래시액스", "complete": false}
-    , {"name": "snowlady", "weapon": "활", "complete": false}
+      {"name": "꾸왕", "weapon": "갓손검, 태도, 대검, 헤보, 피리", "complete": false}
+    , {"name": "무반동속사", "weapon": "건랜, 태도, 대검, 슬액", "complete": false}
+    , {"name": "snowlady", "weapon": "활(기만자)", "complete": false}
     , {"name": "테이스트오브와일드", "weapon": "조충곤", "complete": false}
-    , {"name": "커피물조절장인", "weapon": "랜스, 해머, 슬래시액스", "complete": false}
-    , {"name": "띠용띠용", "weapon": "건랜스", "complete": false}
-    , {"name": "진자자", "weapon": "쌍검", "complete": false}
+    , {"name": "커피물조절장인", "weapon": "랜스, 해머, 슬액", "complete": false}
+    , {"name": "띠용띠용", "weapon": "건랜, 슬액, 해머, 대검", "complete": false}
+    , {"name": "진자자", "weapon": "쑌검", "complete": false}
     , {"name": "댈라미", "weapon": "-", "complete": false}
-    , {"name": "연휼", "weapon": "대검, 건랜스", "complete": false}
+    , {"name": "연휼", "weapon": "머검, 건랜", "complete": false}
     , {"name": "KANTELUV", "weapon": "-", "complete": false}
-    , {"name": "혀B", "weapon": "활", "complete": false}
-    , {"name": "PUMPKIN", "weapon": "수렵피리, 조충곤", "complete": false}
-    // , {"name": "루민", "weapon": "차지액스, 해머, 태도, 슬래시액스, 수렵피리", "complete": false}
-    // , {"name": "레나", "weapon": "랜스, 해머", "complete": false}
+    , {"name": "혀B", "weapon": "활쟁이", "complete": false}
+    , {"name": "PUMPKIN", "weapon": "갓렵킹리, 조충곤", "complete": false}
+    , {"name": "루민", "weapon": "차액, 해머, 태도, 슬액, 피리", "complete": false}
+    , {"name": "레나", "weapon": "랜스, 해머", "complete": false}
+    , {"name": "배즙먹은상원", "weapon": "-", "complete": false}
 ];
 
 
@@ -43,11 +44,13 @@ team1_member = new HashMap();
 team2_member = new HashMap();
 team3_member = new HashMap();
 team4_member = new HashMap();
+team5_member = new HashMap();
 
 wait_member = new HashMap();
 wait_member.push('-');
 
 complete_member = [
+    [],
     [],
     [],
     [],
@@ -64,6 +67,8 @@ for (i = 0; i < complete_member.length; i++) {
             team3_member.push(members[complete_member[i][j]]);
         } else if (i === 3) {
             team4_member.push(members[complete_member[i][j]]);
+        } else if (i === 4) {
+            team5_member.push(members[complete_member[i][j]]);
         }
 
         members[complete_member[i][j]].complete = true;
@@ -88,7 +93,7 @@ $(document).ready(function () {
                 $('div.btn_area > button.btn_wait').hide();
                 // member_list = wait_member;
                 for (i = 0; i < wait_member.len(); i++) {
-                    map_members.push(wait_member.put(i));
+                    map_members.push(wait_member.put(0));
                 }
                 alert('지금부터 pass된 맴버입니다.');
                 $('div#drawingForm > h2').append('<span>( pass됐던 맴버 )</span>')
@@ -109,7 +114,7 @@ $(document).ready(function () {
         let team = $(this).data('team');
 
         let team_memeber = new HashMap();
-        let max_member = 4;
+        let max_member = 3;
         switch (team) {
             case 1:
                 team_memeber = team1_member;
@@ -122,6 +127,9 @@ $(document).ready(function () {
                 break;
             case 4:
                 team_memeber = team4_member;
+                break;
+            case 5:
+                team_memeber = team5_member;
                 break;
             case 'wait':
                 team_memeber = wait_member;
@@ -155,7 +163,7 @@ function setMemberList() {
     let member_info;
     let member_tag;
 
-    for (let teamNum = 1; teamNum <= 4; teamNum++) {
+    for (let teamNum = 1; teamNum <= 5; teamNum++) {
         switch (teamNum) {
             case 1:
                 member_list = team1_member;
@@ -168,6 +176,9 @@ function setMemberList() {
                 break;
             case 4:
                 member_list = team4_member;
+                break;
+            case 5:
+                member_list = team5_member;
                 break;
         }
 

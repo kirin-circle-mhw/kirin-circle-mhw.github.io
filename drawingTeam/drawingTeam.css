@@ -241,9 +241,9 @@ body {
     border: 1px solid #fff;
     border-radius: 10px;
 
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 15%);
 }
 
 #drawingForm > h2 > span {
