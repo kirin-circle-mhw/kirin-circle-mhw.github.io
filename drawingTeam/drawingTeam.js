@@ -1,19 +1,19 @@
 members = [
       {"name": "꾸왕", "weapon": "갓손검, 태도, 대검, 헤보, 피리", "complete": false}
-    , {"name": "무반동속사", "weapon": "건랜, 킹도, 대검, 슬액", "complete": false}
-    , {"name": "snowlady", "weapon": "활(기만자)", "complete": false}
-    , {"name": "테이스트오브와일드", "weapon": "조충곤", "complete": false}
-    , {"name": "커피물조절장인", "weapon": "란스, 해머, 슬액", "complete": false}
-    , {"name": "띠용띠용", "weapon": "건랜, 매미, 해머, 대검", "complete": false}
+    , {"name": "무반동속사", "weapon": "총랜스, 킹도, 대검, 스래기", "complete": false}
+    , {"name": "snowlady", "weapon": "기만활, ㅌㅐ도", "complete": false}
+    , {"name": "테이스트오브와일드", "weapon": "여래충곤", "complete": false}
+    , {"name": "커피물조절장인", "weapon": "란스, 큰망치, 스ㄹ액", "complete": false}
+    , {"name": "띠용띠용", "weapon": "!@#$스, 매미, 해.머리내꺼, 대왕검", "complete": false}
     , {"name": "진자자", "weapon": "쑌검", "complete": false}
-    , {"name": "댈라미", "weapon": "-", "complete": false}
-    , {"name": "연휼", "weapon": "머검, 건랜", "complete": false}
-    , {"name": "KANTELUV", "weapon": "활, 차액, 슬액, 손검, 해머, 태도", "complete": false}
-    , {"name": "혀B", "weapon": "활쟁이", "complete": false}
-    , {"name": "PUMPKIN", "weapon": "갓렵킹리, 조충곤", "complete": false}
-    , {"name": "루민", "weapon": "예초기, 해머, 태도, 슬액, 피리", "complete": false}
-    , {"name": "레나", "weapon": "랜스, 함마", "complete": false}
-    , {"name": "배즙먹은상원", "weapon": "-", "complete": false}
+    , {"name": "댈라미", "weapon": "---태---도---", "complete": false}
+    , {"name": "연휼", "weapon": "CMC검, 건---랜, 롸?보", "complete": false}
+    , {"name": "KANTELUV", "weapon": "활, 차-액, 슬액, 손검, 해머, 태도", "complete": false}
+    , {"name": "혀B", "weapon": "인민의 활쟁이", "complete": false}
+    , {"name": "PUMPKIN", "weapon": "갓렵킹리, 프로팰러", "complete": false}
+    , {"name": "루민", "weapon": "예초기, 함마, 퉤도, 술액, 피리", "complete": false}
+    , {"name": "레나", "weapon": "참꽁멸스, 5함마, 피리릴 개굴개굴, 큰검", "complete": false}
+    , {"name": "배즙먹은상원", "weapon": "활.", "complete": false}
 ];
 
 
