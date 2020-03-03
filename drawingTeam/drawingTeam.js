@@ -1,11 +1,11 @@
 members = [
-      {"name": "꾸왕", "weapon": "갓손검, 태도, 대검, 헤보, 피리", "complete": false}
-    , {"name": "무반동속사", "weapon": "총랜스, 킹도, 대검, 스래기", "complete": false}
+      {"name": "꾸왕", "weapon": "한봉검, 태도, 대검, 헤보, 피리", "complete": false}
+    , {"name": "무반동속사", "weapon": "총창, 킹도, 대검, 스래기", "complete": false}
     , {"name": "snowlady", "weapon": "기만활, ㅌㅐ도", "complete": false}
     , {"name": "테이스트오브와일드", "weapon": "여래충곤", "complete": false}
     , {"name": "커피물조절장인", "weapon": "란스, 큰망치, 스ㄹ액", "complete": false}
     , {"name": "띠용띠용", "weapon": "!@#$스, 매미, 해.머리내꺼, 대왕검", "complete": false}
-    , {"name": "진자자", "weapon": "🗡 쑌 검 🗡", "complete": false}
+    , {"name": "진자자", "weapon": "쑌검 ††", "complete": false}
     , {"name": "댈라미", "weapon": "태도 ---|===========>", "complete": false}
     , {"name": "연휼", "weapon": "CMC검, 건---랜, 롸?보", "complete": false}
     , {"name": "KANTELUV", "weapon": "활, 차-액, 슬액, 손검, 해머, 태도", "complete": false}
