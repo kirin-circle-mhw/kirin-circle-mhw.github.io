@@ -13,7 +13,7 @@ members = [
     , {"name": "PUMPKIN", "weapon": "갓렵킹리, 프로팰러", "complete": false}
     , {"name": "루민", "weapon": "예초기, 함마, 퉤도, 술액, 피리", "complete": false}
     , {"name": "레나", "weapon": "참꽁멸스, 5함마, 피리릴 개굴개굴, 큰검", "complete": false}
-    , {"name": "배즙먹은상원", "weapon": "활 |) -> -> ->", "complete": false}
+    , {"name": "배즙먹은상원", "weapon": "활 |) → → →", "complete": false}
 ];
 
 
